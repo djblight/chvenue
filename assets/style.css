@@ -1,0 +1,12 @@
+#container {
+    width: 100%;
+    height: 100%;
+    background-color: #D3D4D5;
+}
+.ch-promos {
+    width: 96vw;
+    height: 80vh;
+    overflow: none;
+    margin: 32px;
+    background: #FF3636;
+}
