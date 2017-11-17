@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Merriweather|Lato">
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -14,122 +16,124 @@
 <body>
 <div id="container">
     <header>
-            <form action="https://www.chvenue.com/search" id="chv-search-box">
-                <div>
-                    <input type="hidden" name="cx" value="014420022621253808966:fqvgqgywvsm">
-                    <input type="hidden" name="cof" value="FORID:9">
-                    <input type="hidden" name="ie" value="UTF-8">
-                <input type="text" name="q" size="31" placeholder="Search...">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </div>
-            </form>
+      <div class="header">
+        <ul>
+          <li>GET CONNECTED</li>
+          <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></li>
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></li>
+          <input type="text" class="rounded" size="71" placeholder="SEARCH EVENTS">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <button class="login">LOGIN</button>
+          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+        </ul>    
+      </div>
     </header>
-
-    <!-- <div class="ch-promos"> -->
-        <!-- <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" height="300rem" width="350rem" src="assets/images/nicki_minaj.jpg" alt="Nicki Minaj">
-              <div class="card-block">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-              <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
+    <div class="nav" role="navigation">
+        <nav class="navbar navbar-inverse navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span class='bigger'>CH</span><span class='smaller'>VENUE</span></a>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">TICKETS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PLAN YOUR VISIT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">VIP MEMBERS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT US</a>
+                  </li>
+              </ul>
             </div>
-            <div class="card">
-              <img class="card-img-top" src="assets/images/nicki_minaj.jpg" alt="Nicki Minaj">
-              <div class="card-block">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-              <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
+          </nav>
+    </div>
+    <div class="ch-promos">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" height="100%" width="100%" src="assets/images/nicki_minaj.jpg" alt="Nicki Minaj">
+            <div class="card-day">
+                <p class="day"></p>
+                <h6 class="day">FRIDAY</h6>
             </div>
-            <div class="card">
-              <img class="card-img-top" src="assets/images/nicki_minaj.jpg" alt="Nicki Minaj">
-              <div class="card-block">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-              <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
+            <div class="card-block">
+              <h6 class="card-date">JULY 25, 2015</h6>
+              <h2 class="card-text">NICKI MINAJ</h2>
+              <p class="card-text">The Pink Print Tour</p>
             </div>
           </div>
-            <div class="card" style="width: 18.88rem;">
-                    <img class="card-img-top" src="assets/images/nicki_minaj.jpg" alt="Nicki Minaj">
-                    <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card-columns">
-                        <div class="card">
-                          <img class="card-img-top" data-src="..." alt="Card image cap">
-                          <div class="card-block">
-                            <h4 class="card-title">Card title that wraps to a new line</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          </div>
-                        </div>
-                        <div class="card card-block">
-                          <blockquote class="card-blockquote">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                            <footer>
-                              <small class="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                              </small>
-                            </footer>
-                          </blockquote>
-                        </div>
-                        <div class="card">
-                          <img class="card-img-top" data-src="..." alt="Card image cap">
-                          <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                          </div>
-                        </div>
-                        <div class="card card-block card-inverse card-primary text-xs-center">
-                          <blockquote class="card-blockquote">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                            <footer>
-                              <small>
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                              </small>
-                            </footer>
-                          </blockquote>
-                        </div>
-                        <div class="card card-block text-xs-center">
-                          <h4 class="card-title">Card title</h4>
-                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                        <div class="card">
-                          <img class="card-img" data-src="..." alt="Card image">
-                        </div>
-                        <div class="card card-block text-xs-right">
-                          <blockquote class="card-blockquote">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                            <footer>
-                              <small class="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                              </small>
-                            </footer>
-                          </blockquote>
-                        </div>
-                        <div class="card card-block">
-                          <h4 class="card-title">Card title</h4>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div> -->
-    <!-- </div> -->
+          <div class="card">
+            <img class="card-img-top" height="100%" width="100%" src="assets/images/nick_jonas.jpg" alt="Nicki Minaj">
+            <div class="card-day">
+                <p class="day"></p>
+                <h6 class="day">FRIDAY</h6>
+            </div>
+            <div class="card-block">
+              <h6 class="card-date">JULY 25, 2015</h6>
+              <h2 class="card-text">NICK JONAS</h2>
+              <p class="card-text">'Live In Concert' Tour</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" height="100%" width="100%" src="assets/images/taylor_swift.jpg" alt="Nicki Minaj">
+            <div class="card-day">
+                <p class="day"></p>
+                <h6 class="day">FRIDAY</h6>
+            </div>
+            <div class="card-block">
+              <h6 class="card-date">JULY 25, 2015</h6>
+              <h2 class="card-text">Taylor Swift</h2>
+              <p class="card-text">The 1989 World Tour</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" height="100%" width="100%" src="assets/images/sam_smith.jpg" alt="Nicki Minaj">
+            <div class="card-day">
+                <p class="day"></p>
+                <h6 class="day">FRIDAY</h6>
+            </div>
+            <div class="card-block">
+              <h6 class="card-date">JULY 25, 2015</h6>
+              <h2 class="card-text">SAM SMITH</h2>
+              <p class="card-text">In The Lonely Hour Tour</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" height="100%" width="100%" src="assets/images/iggy_azalea.jpg" alt="Iggy Azalea">
+            <div class="card-day">
+                <p class="day"></p>
+                <h6 class="day">FRIDAY</h6>
+            </div>
+            <div class="card-block">
+              <h6 class="card-date">JULY 25, 2015</h6>
+              <h2 class="card-text">Iggy Azalea</h2>
+              <p class="card-text">'Great Escape' Tour</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" height="100%" width="100%" src="assets/images/brandon_flowers.jpg" alt="Brandon Flowers">
+            <div class="card-day">
+                <p class="day"></p>
+                <h6 class="day">FRIDAY</h6>
+            </div>
+            <div class="card-block">
+              <h6 class="card-date">JULY 25, 2015</h6>
+              <h2 class="card-text">Barndon Flowers</h2>
+              <p class="card-text">with Temper Trap</p>
+            </div>
+          </div>
+        </div>           
+    </div>
 </div>
 
     
