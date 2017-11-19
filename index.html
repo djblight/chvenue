@@ -14,29 +14,32 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body>
-<div id="container">
     <header>
       <div class="header">
+          <div class="search">
+              <ul>
+              <li><input type="text" class="rounded" size="71" placeholder="SEARCH EVENTS">
+                <a href="#" target="_blank"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+              <li><a href="#" target="_blank"><button class="login">LOGIN</button>
+              <i class="fa fa-user-circle-o" aria-hidden="true"></i></a></li>
+            </ul>    
+            </div>
+        <div class="social">
         <ul>
           <li>GET CONNECTED</li>
-          <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></li>
-          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></li>
-          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></li>
-          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></li>
-          <input type="text" class="rounded" size="71" placeholder="SEARCH EVENTS">
-          <i class="fa fa-search" aria-hidden="true"></i>
-          <button class="login">LOGIN</button>
-          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-        </ul>    
+          <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></i></li>
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        </ul>
+        </div>
       </div>
     </header>
     <div class="nav" role="navigation">
         <nav class="navbar navbar-inverse navbar-toggleable-md navbar-light bg-faded">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#"><span class='bigger'>CH</span><span class='smaller'>VENUE</span></a>
-          
+            </button>       
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -54,6 +57,17 @@
               </ul>
             </div>
           </nav>
+    </div>
+    <div class="brand">
+        <p><span class='bigger'>CH</span><span class='smaller'>VENUE</span></p>
+    </div>
+<div id="container">
+    <div class="nav-alt">
+      <ul class="alt">
+          <li><p>UPCOMING EVENTS</p></li>
+          <li><a class="link" href="#" target="_blank"><i class="fa fa-calendar fa-2x" aria-hidden="true"></i></a></li>
+          <li><a class="link" href="#" target="_blank"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a></li>
+      </ul>
     </div>
     <div class="ch-promos">
         <div class="card-deck">
@@ -134,8 +148,21 @@
           </div>
         </div>           
     </div>
-</div>
-
+  </div>
+  <section class="newsletter">
+    <div class="text-container">
+      <h1>NEWSLETTER SIGNUP</h1>
+      <P>Stay updated on the best concerts and most hip events!</P>
+      <br>
+      <button class="signup"><a class="newsletter-link" href="#" target="_blank">GET CONNECTED</button></a>
+    </div>
+  </section>
+  <section class="boxes">
+    <div class="box-container">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+  </section>
     
 </body>
 </html>

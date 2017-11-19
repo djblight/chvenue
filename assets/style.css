@@ -1,8 +1,9 @@
 #container {
     width: 100%;
     height: 100%;
-    background-color: #C7C7C7;
+    background-color: #E9E2E2;
 }
+/* Start Header with social media and search bar */
 .header {
     width: 100%;
     background-color: white;
@@ -13,24 +14,32 @@
     padding: 0;
     float: right;
 }
-.header ul li{
+.header ul li {
     text-decoration: none;
+    position: relative;
     display: inline-block;
     font-family: "Oswald";
     font-size: 12px;
-    padding-right: 10px;
+    padding-right: 22px;
     color: #ED0CDC;
 }
-.header ul li:nth-child(8n){
+.search ul li{
     text-decoration: none;
+    position: relative;
     display: inline-block;
     font-family: "Oswald";
     font-size: 12px;
-    padding-right: 70px;
+    padding-right: 0;
     color: #ED0CDC;
 }
-.header ul li a{
+.social ul li:nth-child(6){
+    padding-right: 13rem;
+}
+.social ul li a {
     color: black;
+}
+.social ul li a:hover {
+    color: #ED0CDC;
 }
 i.fa-search {
     position: relative;
@@ -38,7 +47,7 @@ i.fa-search {
 }
 i.fa-user-circle-o {
     position: absolute;
-    right: 26px;
+    right: 40px;
     top: 5px;
     color: white;
     z-index: 2;
@@ -49,11 +58,11 @@ input.rounded {
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
 	font-size: 12px;
-	padding: 0 10px;
+	padding: 0 30px;
 	outline: 0;
     -webkit-appearance: none;
     font-family: "Oswald";
-    background-color: #EAE4E4;
+    background-color: #E9E2E2;
 }
 .login {
     font-size: 12px;
@@ -61,48 +70,105 @@ input.rounded {
     background-color: #ED0CDC;
     border: none;
     height: 26px;
-    width: 100px;
+    width: 140px;
     color: white; 
     text-align: left;
-    padding-left: 16px;
+    padding-left: 25px;
     z-index: 1;
 }
+/* End Header */
+
+/* Start Nav Bar */
 nav.navbar {
     width: 100%;
     padding: 0;
+    height: 4rem;
     background-color: black;
+    z-index: 1;
 }
 a.nav-link{
     display: inline-block;
     font-family: "Oswald";
     font-size: 14px;
     letter-spacing: 1px;
+    z-index: 1;
 }
 .navbar-nav > li{
-    padding-right: 6rem;
+    padding-right: 10rem;
+    z-index: 1;
   }
 #navbarSupportedContent {
-    padding-left: 18rem;
+    padding-left: 36%;
+    z-index: 1;
 }
-.navbar-brand {
-    margin-top: -20px;;
+div.brand {
+    position: absolute;
+    width: 9.5rem;
+    height: 4.6rem;
+    background-color: #151515;
+    border-right: 2.5rem solid #3F3F3F;
+    margin-left: 20px;
+    margin-top: -5.2rem;
+    z-index: 4;
+}
+.brand p {
+    position: relative;
     color: white;
+    top: 6px;
+    left: -14px;
+    z-index: 5;
 }
 span.bigger {
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 1px;
     padding: 0 0 0 30px;
 }
 span.smaller {
+    font-size: 18px;
     font-style: italic;
+    font-weight: 700;
     padding-left: 3px;
     letter-spacing: 1px;
 }
+/* end Nav Bar */
+
+/* Start nav-alternatives */
+.nav-alt ul {
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+    margin-top: .7rem;
+    margin-left: 2.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.nav-alt ul li {
+    list-style: none;
+    font-family: "Oswald";
+    font-size: 20px;
+    font-stretch: bold;
+    display: inline-block;
+    padding-right: 10px;
+}
+.nav-alt ul li:nth-child(1) {
+    padding-right: 74.5rem;
+}
+.nav-alt ul li a {
+    color: black;
+}
+.nav-alt ul li a:hover{
+    color: #ED0CDC;
+}
+/* End nav-alternatives*/
+
+/*Start Promo Cards */
 .ch-promos {
     overflow: none;
-    margin: 80px;
-    background: #C7C7C7;
+    margin: 0 80px 80px 80px;
+    background: #E9E2E2;
+    border-top: 2px solid black;
+    padding-top: 20px;
 }
 div.card {
     margin-right: 20px;
@@ -137,7 +203,6 @@ h6.day {
     height: 0;
     
 }
-
 .card-date {
     width: 100.2%;
     padding: 1em;
@@ -166,4 +231,65 @@ p.card-text {
     font-size: 16px;
     color: black!important;
 }
+/* End Promo Cards */
 
+/* Start img-container */
+.newsletter {
+    width: 100vw;
+    height: 75vh; 
+    background: url('./images/concert.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-top: 10%;
+}
+.text-container {
+    height: 60%;
+    width: 60%;
+    background: black;
+    margin: auto;
+    text-align: center;
+}
+.text-container h1 {
+    color: white;
+    font-family: "Oswald";
+    letter-spacing: 5px;
+    padding-top: 3rem;
+}
+.text-container p {
+    color: #ED0CDC;
+    font-family: "Oswald";
+    letter-spacing: 5px;
+    font-style: italic;
+    
+}
+.text-container button {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 60px 8px 60px;
+}
+.text-container button:hover {
+    background: #3F3F3F;
+}
+.text-container button a {
+    color: white;
+    text-decoration: none;
+}
+.text-container button a:hover {
+    color: #ED0CDC;
+    text-decoration: none;
+}
+/* End img-container*/
+
+/* Start Boxes section */
+.boxes {
+    width: 100vw;
+    height: 50vh;
+    background: blue; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* End Boxes section */
